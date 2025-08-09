@@ -1,0 +1,104 @@
+/* styles.css */
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --text-color: #333;
+    --background-color: #f8f9fa;
+    --footer-background: #343a40;
+    --footer-text: #f8f9fa;
+    --font-family-primary: sans-serif;
+    --font-family-secondary: serif;
+}
+
+body {
+    font-family: var(--font-family-primary);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+    font-family: var(--font-family-secondary);
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Information */
+#contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact-info li {
+    margin-bottom: 0.5rem;
+}
+
+/* FAQ */
+#faq ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+}
+
+#faq li {
+    margin-bottom: 1rem;
+}
+
+/* Services */
+#services ul {
+    list-style: square;
+    margin-left: 1.5rem;
+}
+
+#services li {
+    margin-bottom: 0.5rem;
+}
+
+/* Testimonials */
+#testimonials .testimonial {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+#testimonials .testimonial p {
+    font-style: italic;
+}
+
+#testimonials .testimonial strong {
+    display: block;
+    text-align: right;
+}
+
+/* Footer */
+footer {
+    background-color: var(--footer-background);
+    color: var(--footer-text);
+    text-align: center;
+    padding: 1rem;
+}
